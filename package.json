@@ -1,0 +1,19 @@
+{
+  "name": "pandorajs",
+  "version": "1.0.2",
+  "description": "Based on the nodej site solutions",
+  "main": "pandora.js",
+  "bin": {
+    "pandorajs": "bin/index.js"
+  },
+  "dependencies": {
+    "async": "~0.2.10",
+    "fs-extra": "^0.19.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wanhu",
+  "license": "BSD"
+}

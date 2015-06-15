@@ -41,3 +41,5 @@ pandorajs cmd  [arguments]
 * service	服务
 * tpls		模板
 * start.js	启动文件
+
+test

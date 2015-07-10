@@ -70,15 +70,14 @@ program
                 } else {
                     var fpath = path.dirname(__dirname);
                     var flist = fs.readdirSync(path.join(fpath, 'demo'));
-                    console.log('正在初始化...');
+                    console.log('pandora->正在初始化...'+ (Date.now()));
                     flist.forEach(function(f) {
                         fse.copySync(path.join(fpath, 'demo', f), path.join(process.cwd(), f));
                     });
-                    // console.log('__dirname',__dirname);
                     run('npm install', null, function() {
-                        // code
-                        // console.log('创建完成！');
                         cmd.start && startServer();
+                        console.log('pandora->完成...'+ (Date.now()));
+                        process.exit(1);
                     });
                 }
 

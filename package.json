@@ -1,8 +1,8 @@
 {
   "name": "pandorajs",
   "version": "1.0.2",
-  "description": "Based on the nodej site solutions",
-  "main": "pandora.js",
+  "description": "基于NodeJS的建站系统",
+  "main": "index.js",
   "bin": {
     "pandorajs": "bin/index.js"
   },

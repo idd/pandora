@@ -5,7 +5,8 @@
   "dependencies": {
     "pan-astro": "^0.0.1",
     "pan-utils": "^1.0.0",
-    "PandoraJS": "^1.0.2"
+    "PandoraJS": "^1.0.2",
+    "html-minifier":"0.7.2"
   },
   "devDependencies": {},
   "scripts": {

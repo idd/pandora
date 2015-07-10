@@ -1,3 +1,7 @@
+### PandoraJS
+[PandoraJS](https://github.com/isunflower/pandora)是一个基于NodeJS的MVC建站系统，该项目还在进一步完善中。
+
+
 ### 安装
 
 > npm instal -g pandorajs
@@ -19,7 +23,7 @@
 
 或者在根目录下，运行
 
->pandorajs start.js
+>pandorajs start.js
 
 成功后可通过127.0.0.1:3005或网内ip加端口号访问
 
@@ -41,5 +45,3 @@ pandorajs cmd  [arguments]
 * service	服务
 * tpls		模板
 * start.js	启动文件
-
-test

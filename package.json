@@ -1,6 +1,6 @@
 {
   "name": "pandorajs",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "基于NodeJS的建站系统",
   "main": "index.js",
   "bin": {
@@ -15,6 +15,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "wanhu",
+  "author": "isunflower",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/isunflower/pandora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isunflower/pandora/issues"
+  },
+  "homepage": "https://github.com/isunflower/pandora#readme",
+  "readmeFilename": "readme.md",    
   "license": "BSD"
 }
